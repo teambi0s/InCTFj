@@ -1,0 +1,11 @@
+XOR haunts again
+
+Looks like before Alice gave the key in wrong hands and someone misused it ;). This time the ciphertext is given to you and seems like the magic of XOR has been done on it again! Can you decrypt the given ciphertext and get the original message back?
+
+The ciphertext has been encoded in one of the common encoding format.
+
+Ciphertext: 11161b0c1e12031d0c270c0d271a0a0d0c1d272d271f170c27110c270a0c05
+
+Hint:
+What do you do when you have a bunch of keys and don’t know which one opens lock?
+

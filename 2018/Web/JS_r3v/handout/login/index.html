@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JS_rev</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<center>
+		<h3 style="padding:15em;">revers1ng_but-n0t_revers1ng... ;)</h3>
+	</center>
+	<script>
+			function ascii_to_hexa(str){var arr=[];for(var n=0,l=str.length;n<l;n++){var hex=Number(str.charCodeAt(n)).toString(16);arr.push(hex)}return arr.join("")}function isalpha(char){return char.toUpperCase()!=char.toLowerCase()}function shift(str){var n="";var alphs="abcdefghijklmnopqrstuvwxyz";var digit="1234567890";for(var i=0;i<str.length;i++){var x=str.charAt(i);if(isalpha(x)){x=x.toLowerCase();n=n.concat(alphs[(alphs.indexOf(x)+3)%26])}else if(!isNaN(i)){n=n.concat(digit[(digit.indexOf(x)+8)%10])}}return n}console.log("Decode the following to get the flag");console.log("var code = 'NDc0aDQxNTI0NDRkNWUzMzU4NTExOTQyNDMzaTQyMTg1NTRoM2k0ZDI4NTQyODUxNDE1MDE5NTg1MjVn'");var code=btoa(shift(ascii_to_hexa(flag)));
+	</script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
