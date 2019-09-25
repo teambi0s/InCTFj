@@ -18,7 +18,7 @@ message = bytes_to_long(plaintext)
 ciphertext=(message**e)%n
 
 #You'll have to find what is flag when one of the generator prime p, public key (n,e) and ciphertext is given to you.
-print( "Generator prime p :%d"%( plaintext ))
+print( "Generator prime p :%d"%( p ))
 print( "Public key n:%d"%( n ))
 print( "Public key e:%d"%( e )
 print( "Ciphertext :%d"%( ciphertext ))
